@@ -29,19 +29,7 @@ h3 {
   color: black;
 }
 
-.movies {
-  display: none;
-}
-
-.weather {
-  display: none;
-}
-
-.dogs {
-  display: none;
-}
-
-.activities {
+.movies, .weather, .dogs, .activities {
   display: none;
 }
 
@@ -58,14 +46,6 @@ p {
   text-align: center;
 }
 
-#javascript {
-  display: none;
-}
-
-#ruby {
-  display: none;
-}
-
-#python {
+#javascript, #ruby, #python {
   display: none;
 }

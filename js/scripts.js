@@ -1,60 +1,61 @@
-var JavaScript = 
-
-
-
-
-
 $(document).ready(function () {
 
   $('input[name="music"]').on('change', (function(e){
     var music = $("input:radio[name=music]:checked").val();
 
     if (music === "rockandroll") {
-      return $(".movies").toggle();
+       $(".movies").toggle();
     } else if (music === "jazz") {
-      return $(".movies").toggle();
+       $(".movies").toggle();
     } else if (music === "rapandhiphop") {
-      return $(".movies").toggle();
-    } else if (music === "Metal") {
-      return $(".movies").toggle();
+       $(".movies").toggle();
+    } else if (music === "metal") {
+       $(".movies").toggle();
     } else {
-      return $(".movies").toggle();
+       $(".movies").toggle();
     }
 
+    $(".music").toggle();
+
+    event.preventDefault();
   }));
 
   $('input[name="movies"]').on('change', (function(e){
     var movies = $("input:radio[name=movies]:checked").val();
 
     if (movies === "adventure") {
-      return $(".weather").toggle();
+       $(".weather").toggle();
     } else if (movies === "horror") {
-      return $(".weather").toggle();
+       $(".weather").toggle();
     } else if (movies === "comedies") {
-      return $(".weather").toggle();
+       $(".weather").toggle();
     } else if (movies === "documentaries") {
-      return $(".weather").toggle();
+       $(".weather").toggle();
     } else {
-      return $(".weather").toggle();
+       $(".weather").toggle();
     }
 
-   
+    $(".movies").toggle();
+
+    event.preventDefault();
   }));
 
   $('input[name="weather"]').on('change', (function(e){
     var weather = $("input:radio[name=weather]:checked").val();
 
     if (weather === "sunny") {
-      return $(".dogs").toggle();
+       $(".dogs").toggle();
     } else if (weather === "rainy") {
-      return $(".dogs").toggle();
+       $(".dogs").toggle();
     } else if (weather === "stormy") {
-      return $(".dogs").toggle();
+       $(".dogs").toggle();
     } else if (weather === "snowy") {
-      return $(".dogs").toggle();
+       $(".dogs").toggle();
     } else {
-      return $(".dogs").toggle();
+       $(".dogs").toggle();
     }
+
+    $(".weather").toggle();
 
     event.preventDefault();
   }));
@@ -63,18 +64,20 @@ $(document).ready(function () {
     var dogs = $("input:radio[name=dogs]:checked").val();
 
     if (dogs === "goldenretrievers") {
-      return $(".activities").toggle();
+       $(".activities").toggle();
     } else if (dogs === "corgis") {
-      return $(".activities").toggle();
+       $(".activities").toggle();
     } else if (dogs === "pitbulls") {
-      return $(".activities").toggle();
+       $(".activities").toggle();
     } else if (dogs === "huskies") {
-      return $(".activities").toggle();
+       $(".activities").toggle();
     } else {
-      return $(".activities").toggle();
+       $(".activities").toggle();
     }
 
-    
+    $(".dogs").toggle();
+
+    event.preventDefault();
   }));
 
   $('input[name="activities"]').on('change', (function(e){
@@ -92,14 +95,14 @@ $(document).ready(function () {
       $(".btn").toggle();
     }
 
-    
+    event.preventDefault();
   }));
 
-  //$(".btn").onClick(function() {
-   // var JavaScript = 
-    //var result = JavaScript
+  //$(".btn").click(function() {
+    //var result = ("javascript");
+    
     //$("#output").text(result)
- // }))
+  //}));
 
 
 });
