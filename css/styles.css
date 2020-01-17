@@ -1,5 +1,5 @@
 body {
-  background-image: url("/desktop/code-review-week2/img/background-image.jpg");
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1 {
@@ -10,4 +10,8 @@ h1 {
   text-align: right;
   font-style: italic;
   font-size: medium;
+}
+
+h2 {
+  color: black;
 }
