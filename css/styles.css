@@ -44,3 +44,28 @@ h3 {
 .activities {
   display: none;
 }
+
+p {
+  text-indent: 30px;
+}
+
+.btn {
+  display: none;
+}
+
+#output {
+  float: right;
+  text-align: center;
+}
+
+#javascript {
+  display: none;
+}
+
+#ruby {
+  display: none;
+}
+
+#python {
+  display: none;
+}
