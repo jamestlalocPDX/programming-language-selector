@@ -95,14 +95,11 @@ $(document).ready(function () {
       $(".btn").toggle();
     }
 
+    
+
     event.preventDefault();
   }));
 
-  //$(".btn").click(function() {
-    //var result = ("javascript");
-    
-    //$("#output").text(result)
-  //}));
-
+  
 
 });

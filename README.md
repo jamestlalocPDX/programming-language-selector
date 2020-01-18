@@ -6,14 +6,14 @@
 
 ## **Description**
 
-_This website will provide a little background information on programming languages, an unordered list of languages that can be learned, and a series of unrelated questions to determine what language should be learned first based on the buttons selected._
+_This website will provide a little background information on programming languages, an unordered list of languages that can be learned, and a series of unrelated questions to determine what language is recommended be learned first based on the buttons selected._
 
 ## **Setup/Installation**
  
  There are two ways to access this website:
 
 1. Step one: Clone this repository.
-2. Step two: Open the programming-language-selector directory.
+2. Step two: Open the repository.
 3. Step three: Open the html file in your browser.
 
 ## **Known Bugs**

@@ -29,6 +29,7 @@ h3 {
   color: black;
 }
 
+
 .movies, .weather, .dogs, .activities {
   display: none;
 }
@@ -37,9 +38,6 @@ p {
   text-indent: 30px;
 }
 
-.btn {
-  display: none;
-}
 
 #output {
   float: right;
