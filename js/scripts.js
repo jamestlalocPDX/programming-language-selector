@@ -84,15 +84,15 @@ $(document).ready(function () {
     var activities = $("input:radio[name=activities]:checked").val();
 
     if (activities === "inbed") {
-      $(".btn").toggle();
+      
     } else if (activities === "onahike") {
-      $(".btn").toggle();
+      
     } else if (activities === "bar") {
-      $(".btn").toggle();
+      
     } else if (activities === "hometown") {
-      $(".btn").toggle();
+      
     } else {
-      $(".btn").toggle();
+      
     }
 
     
