@@ -38,6 +38,14 @@ p {
   text-align: center;
 }
 
-.javascript, .ruby, .python {
+#javascript {
+  display: none;
+}
+
+#ruby {
+  display: none;
+}
+
+#python { 
   display: none;
 }
