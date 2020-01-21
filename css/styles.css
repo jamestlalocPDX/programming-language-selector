@@ -29,21 +29,15 @@ h3 {
   color: black;
 }
 
-
-.movies, .weather, .dogs, .activities {
-  display: none;
-}
-
 p {
   text-indent: 30px;
 }
-
 
 #output {
   float: left;
   text-align: center;
 }
 
-#javascript, #ruby, #python {
+.javascript, .ruby, .python {
   display: none;
 }
