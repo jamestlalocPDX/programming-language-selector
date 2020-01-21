@@ -33,19 +33,20 @@ p {
   text-indent: 30px;
 }
 
-#output {
-  float: left;
-  text-align: center;
-}
-
 #javascript {
   display: none;
+  color: goldenrod;
+  font-size: 45px;
 }
 
 #ruby {
   display: none;
+  color: red;
+  font-size: 45px;
 }
 
 #python { 
   display: none;
+  color: green;
+  font-size: 45px;
 }

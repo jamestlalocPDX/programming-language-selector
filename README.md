@@ -9,12 +9,12 @@
 _This website will provide a little background information on programming languages, an unordered list of languages that can be learned, and a series of unrelated questions to determine what language is recommended be learned first based on the buttons selected._
 
 ## **Setup/Installation**
- 
- There are two ways to access this website:
 
 1. Step one: Clone this repository.
 2. Step two: Open the repository.
 3. Step three: Open the html file in your browser.
+4. Step four: Select answer to the questionaire.
+5. Step five: click "Find you language!"
 
 ## **Known Bugs**
 
