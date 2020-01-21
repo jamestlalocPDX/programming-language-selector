@@ -1,5 +1,7 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: url("../img/background-image.jpg");
+  background-size: auto;
 }
 
 .jumbotron {
@@ -23,6 +25,7 @@ h1 {
 
 .ending-footer {
   text-align: center;
+  color: white;
 }
 
 h3 {
